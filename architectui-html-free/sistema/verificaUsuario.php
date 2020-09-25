@@ -2,7 +2,7 @@
 	session_start();
     include("conexion.php");
     include("funciones/funciones.php");
-    include("clases/tBitacoraInicioSesion.php");
+    include("models/tBitacoraInicioSesion.php");
     
     $db = new Conexion;
     $db->conectarBD();
